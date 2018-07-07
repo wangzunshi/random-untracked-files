@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  color: #0000FF;
+  font-size: 16px;
+
+}
+a {
+  font-size: 1em;
+  line-height: 50%;
+  text-decoration: none;
+  color: white;
+}
+
+  a:link { color:#DCDCDC; } /* unvisited */
+  a:hover { color:black; } /* mouse over */
+  a:active { color:#DCDCDC; } /* selected */
+
+
+figcaption, h1, h3, p {
+  color: #333333;
+}
+figcaption {
+  font-size: 0.9em;
+  line-height: 130%;
+}
+h1 {
+  font-size: 2em;
+  line-height: 300%;
+}
+h3 {
+  font-size: 1.2em;
+  line-height: 150%;
+}
+p {
+  font-size: 1em;
+  line-height: 130%;
+}
+.author {
+  font-size: 0.8em;
+  line-height: 300%;
+
+
+}
+nav {
+  background-color: #333333;
+  float: left;
+  position: fixed;
+  width: 100%;
+
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
